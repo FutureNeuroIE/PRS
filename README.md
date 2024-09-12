@@ -1,11 +1,20 @@
-Author: Kane Collins
-Email: kanecollins20@rcsi.com 
-Last modified: 12/9/24
+# A (very rough) guide to running Polygenic Risk Scores
+## Author
+Kane Collins
 
-This folder contains instructions on running polygenic risk scores (PRSs). A test dataset is also included. 
-There are multiple different software tools that can run PRSs including PRSice2, lassosum, and LDpred. However, they all have similar performance (https://doi.org/10.1038/s42003-022-03812-z). PRSice is probably the easiest to use, so this is the one that I will go through in this turorial. (I may also upload scripts for other PRS software in time)
-There is a nice general PRS tutorial available here: https://www.nature.com/articles/s41596-020-0353-1
-There is a specific PRSice tutorial available here, which is actually pretty nice: https://choishingwan.github.io/PRSice/step_by_step/ 
+kanecollins20@rcsi.com 
+## Last modified
+12/9/24
+
+## Requirements
+R (version 3.2.3+)
+
+## Introduction
+
+This repository contains instructions on running polygenic risk scores (PRSs). A test dataset is also included. 
+There are multiple different software tools that can run PRSs including PRSice2, lassosum, and LDpred. However, they all have similar [performance](https://doi.org/10.1038/s42003-022-03812-z). PRSice is probably the easiest to use, so this is the one that I will go through in this turorial. (I may also upload scripts for other PRS software in time)
+There is a nice general PRS tutorial available [here](https://www.nature.com/articles/s41596-020-0353-1)
+There is a specific PRSice tutorial available [here](https://choishingwan.github.io/PRSice/step_by_step/), which is actually pretty nice. 
 
 Not that prior to running this PRS script, you will have to make sure that your genotype data has been appropriately imputed and QC'd. All genotype files ned to be in PLINK (bed/bim/fam) format. 
 This analysis PRSice and R installed on your system. 
