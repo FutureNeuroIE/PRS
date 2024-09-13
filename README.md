@@ -18,7 +18,7 @@ There are multiple different software tools that can run PRSs including PRSice2,
 There is a nice general PRS tutorial available [here](https://www.nature.com/articles/s41596-020-0353-1)
 There is a specific PRSice tutorial available [here](https://choishingwan.github.io/PRSice/step_by_step/), which is actually pretty nice. 
 
-Not that prior to running this PRS script, you will have to make sure that your genotype data has been appropriately imputed and QC'd. All genotype files ned to be in [PLINK](https://www.cog-genomics.org/plink/2.0/) (bed/bim/fam) format. 
+Not that prior to running this PRS script, you will have to make sure that your genotype data has been appropriately imputed and QC'd. If you are looking for a guide on the sort of QC that you need to do, [this](https://github.com/MareesAT/GWA_tutorial/) is a very good resource. All genotype files ned to be in [PLINK](https://www.cog-genomics.org/plink/2.0/) (bed/bim/fam) format. 
 This analysis PRSice and R installed on your system. 
 
 The first step is always picking a p-value threshold. If there is evidence from previous studies in the area of a p-value threshold that can work well, then you are probably fine to just use that threshold. Otherwise you will need to split your dataset into a cohort (~20%) for selecting that p-value threshold, and another cohort (~80%) for acutally testing the efficacy of PRS. You can also experiment with changing your clumping thresholds, but this is less important I think. 
